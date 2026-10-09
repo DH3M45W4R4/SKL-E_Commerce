@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <title>D.G.L.</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS v5.3.8 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.css" integrity="sha512-vWHsp0PuTxwRMLtGTnbS7PDNtI7yFmmiFq24hjcqpup/KK7ixxWdXwRmerG9gu7peaSRIVxpFcfBSVrGzWcF4w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="icon" href="dgl-letter-logo-design-on-black-background-vector-42046897.ico" type="image/x-icon">
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous"> -->
+        <style>
+            .linkgame{
+                text-decoration: none;
+            }
+            .linkgame:hover{
+                text-decoration: underline white;
+            }
+            .carousel-inner img{
+                width: 100%;
+                object-fit: cover;
+                aspect-ratio: 16/9;
+                height: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Progress Bar Container -->
+<div class="progress fixed-bottom" style="height: 8px; border-radius: 0; z-index: 9999;">
+  <div 
+    id="myProgressBar" 
+    class="progress-bar progress-bar-striped progress-bar-animated bg-success" 
+    role="progressbar" 
+    style="width: 0%;" 
+    aria-valuenow="0" 
+    aria-valuemin="0" 
+    aria-valuemax="100">
+  </div>
+</div>
+        <header>
+            <nav class="navbar sticky-top expand-md">
+                <div class="container-fluid">
+                        <a class="navbar-brand fw-bold fs-4" href="">
+                            <i class="bi bi-joystick text-success"></i> 
+                            <span class="text-body">Dhe</span><span class="text-success">ma's G<span class="text-body">am</span>e Libr</span><span class="text-body">ary</span>
+                        </a>
+                        <button class="navbar-toggler"
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarToko" 
+                        aria-controls="navbarToko" 
+                        aria-expanded="false" 
+                        aria-label="toggle navigation">
+                        <i class="navbar-toggler-icon"></i>
+                    </button>
+                     <div class="collapse navbar-collapse" id="navbarToko">
+                        <ul class="navbar-nav mb-2 mx-auto mb-lg-0 gap-3">
+                            <li class="nav-item"> <a href="#" class="nav-link">Home</a></li>
+                            <li class="nav-item"> <a href="#games" class="nav-link">Games</a></li>
+                            <li class="nav-item"> <a href="#faq" class="nav-link">FAQ</a></li>
+                            <li class="nav-item"> <a href="" class="nav-link">About</a></li>
+                        </ul>
+                        <div class="d-flex gap-1">
+                            <button class="btn btn-success position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#canvasCart">
+                            <i class="bi bi-cart-fill"></i>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded bg-danger">4
+                            </button>
+                            <button class="btn btn-success">
+                                <i class="bi bi-person-fill"></i>
+                                Login 
+                            </button>
+                            <button class="btn btn-light btn-outline-success">
+                                <i class="bi bi-person-fill-add "></i>
+                                Register
+                            </button>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search"/>
+                                <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="4000" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="deskrawl-1024x576.png" class="d-block w-100 object-fit-cover" alt="...">
+            <div class="carousel-caption d-block">
+        <a href="#deskrawl" class="linkgame">
+            <h5 class="text-light text-center">Deskrawl: Idle ARPG</h5>
+        </a>
+            <p class="text-light text-center">Trending Idle Game</p>
+        </div>
+        
+    </div>
+    <div class="carousel-item">
+        <img src="ac8-1024x576.png" class="d-block w-100 object-fit-cover" alt="...">
+        <div class="carousel-caption d-block">
+        <a href="#ac8" class="linkgame">
+            <h5 class="text-light text-center">ACE COMBAT 8: Wings of Theve</h5>
+        </a>
+            <p class="text-light text-center">Trending War Game</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="minecraft-dungeons-2-1024x576.png" class="d-block w-100 object-fit-cover" alt="...">
+        <div class="carousel-caption d-block">
+            <a href="#minecraft2" class="linkgame">
+            <h5 class="text-light text-center">Minecraft Dungeons II</h5>
+        </a>
+            <p class="text-light text-center">Trending Co-Op Game</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="the-witcher-3.png" class="d-block w-100 object-fit-cover" alt="...">
+        <div class="carousel-caption d-block">
+            <a href="#thewitcher3" class="linkgame">
+            <h5 class="text-light text-center">The Witcher 3: Wild Hunt Remastered</h5></a>
+            <p class="text-light text-center">The Witcher 3 Remastered</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="transport-fever-3-1024x576.png" class="d-block w-100 object-fit-cover" alt="...">
+        <div class="carousel-caption d-block">
+            <a href="#transportfever3" class="linkgame">
+            <h5 class="text-light text-center">Transport Fever 3</h5></a>
+            <p class="text-light text-center">Trending Simulation Game</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img src="gears-of-war-eday-1024x576.png" class="d-block w-100 object-fit-cover" alt="...">
+      <div class="carousel-caption d-block">
+        <a href="#goweday" class="linkgame">
+        <h5 class="text-light text-center">Gears of War: E-Day</h5></a>
+        <p class="text-light text-center">Trending Waited Game</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        <main>
+            <section class="py-5" id="hero">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <span class="badge text-bg-success mb-3">Welcome to Dhema's Game Library!</span>
+                            <p class="text-secondary text-style-underline">Best Place to Find Trending Games!</p>
+                            <h1 class="fw-bold">Easy Shopping.</h1>
+                            <h1><span class="text-success">Every top gamers starts from here.</span></h1>
+                            <a href="#games" class="btn btn-success btn-lg">
+                            <i class="bi bi-bag-plus-fill"></i> Buy something!</a>
+                            <a href="" class="btn btn-outline-secondary btn-lg">More Products...  <i class="bi bi-search"></i></a>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-4">
+                            <img src="ourgamestore.png" alt="games" class="rounded shadow-sm" style="width: 400px; margin-left: auto;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-5" id="games"><div class="container">
+        <div class="text-center">
+            <span class="badge text-bg-success">Our newest games yet.</span>
+            <h2 class="fw-bold">Pick your awesome games here.</h2>
+            <p class="text-secondary">Find out our games that matches your algorithm.</p>
+        </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card h-100" id="deskrawl">
+      <img src="deskrawl.png" class="card-img-top" alt="Deskraw Picture" style="width: 100%;">
+      <div class="card-body">
+        <h5 class="card-title">Deskrawl: Idle ARPG</h5>
+        <p class="card-text">Trending Idle ARP Game</p>
+        <h5>$4.99</h5>
+        <button class="btn btn-success" data-bs-target="#modalDeskraw" data-bs-toggle="modal"><i class="bi bi-eye"></i> Game Details</button>
+        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" id="ac8">
+      <img src="ac8.png" class="card-img-top" alt="AC8 Picture">
+      <div class="card-body">
+        <h5 class="card-title">ACE COMBAT 8: Wings of Theve</h5>
+        <p class="card-text">Trending War Game</p>
+        <h5>$59.99</h5>
+        <button class="btn btn-success" data-bs-target="#modalAC8" data-bs-toggle="modal"><i class="bi bi-eye"></i> Game Details</button>
+        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" id="minecraft2">
+      <img src="mcd2.png" class="card-img-top" alt="minecraftdungeons2 picture">
+      <div class="card-body">
+        <h5 class="card-title">Minecraft Dungeons II</h5>
+        <p class="card-text">Trending Co-Op Game</p>
+        <h5>$20.99</h5>
+        <button class="btn btn-success" data-bs-target="#modalMinecraftII" data-bs-toggle="modal"><i class="bi bi-eye"></i> Game Details</button>
+        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" id="thewitcher3">
+      <img src="the witchers3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">The Witcher 3: Wild Hunt Remastered</h5>
+        <p class="card-text">Trending Action RP Game</p>
+        <h5>$40.99</h5>
+        <button class="btn btn-success" data-bs-target="#modalTheWitcher" data-bs-toggle="modal"><i class="bi bi-eye"></i> Game Details</button>
+        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" id="transportfever3">
+      <img src="transportfever3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Transport Fever 3</h5>
+        <p class="card-text">Trending Simulation Game</p>
+        <h5>$40.99</h5>
+        <button class="btn btn-success" data-bs-target="#modalTransport" data-bs-toggle="modal"><i class="bi bi-eye"></i> Game Details</button>
+        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" id="goweday">
+      <img src="gears of war eday.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gears of War: E-Day (RELEASED)</h5>
+        <p class="card-text text-secondary">Trending Third Person Shooter Game</p>
+        <h5>$60.99</h5>
+        <button class="btn btn-success" data-bs-target="#modalGears" data-bs-toggle="modal"><i class="bi bi-eye"></i> Game Details</button>
+        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div id="modalDeskraw" aria-hidden="true" tabindex="-1" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Deskraw: Idle ARPG</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="deskrawl.png" class="img-fluid text-center" alt="gambarbotol">
+                        <h4 class="fw-bold mt-3">Deskraw: Idle ARPG</h4> 
+                        <p class="text-secondary">
+                            Deskrawl is an idle ARPG that runs at the bottom of the computer screen (desktop). Its main mechanics focus on slaying enemies, collecting loot, and capturing them to serve as servants. Players can collect legendary items and strengthen their characters while engaging in other activities on the computer.
+                        </p>
+                        <span class="badge text-bg-warning">$4.99</span>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="modalAC8" aria-hidden="true" tabindex="-1" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">ACE COMBAT 8: Wings of Theve</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="ac8.png" class="img-fluid text-center" alt="gambarbotol">
+                        <h4 class="fw-bold mt-3">ACE COMBAT 8: Wings of Theve</h4> 
+                        <p class="text-secondary">
+                            The game features intense aerial combat where players battle it out with aircraft and various weapons. The campaign mode features a series of high-stakes missions involving decision-making and interaction between squad members. </p>
+                        <p class="text-secondary">ACE COMBAT ONLINE features the most extensive multiplayer experience in the series' history. The game introduces an online lobby area, where players can explore airbases using custom avatars before entering game modes. Players can take on missions online with other players from around the world in a variety of modes, including Co-Op access and cross-platform.</p>
+                        <span class="badge text-bg-warning">$59.99</span>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="modalMinecraftII" aria-hidden="true" tabindex="-1" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Minecraft Dungeons II</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="mcd2.png" class="img-fluid text-center" alt="gambarbotol">
+                        <h4 class="fw-bold mt-3">Minecraft Dungeons II</h4> 
+                        <p class="text-secondary">
+                            Minecraft Dungeons II takes players into a new dimension called The Sift, a strange realm filled with various enemy types and new content. Here, players can customize their equipment and playstyle to face increasingly powerful enemies. The game can be played alone, with friends via couch co-op, online, a combination of both ( mixed co-op ), or team up via matchmaking.
+                        </p>
+                        <p class="text-secondary">
+                            The story itself focuses on the plans of the Illager group, which is growing in power and threatening the safety of the Overworld. The player's task in this game is to stop their plans before the Overworld is destroyed.
+                        </p>
+                        <span class="badge text-bg-warning">$20.99</span>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="modalTheWitcher" aria-hidden="true" tabindex="-1" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">The Witcher 3: Wild Hunt Remastered</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="the witchers3.png" class="img-fluid text-center" alt="gambarbotol">
+                        <h4 class="fw-bold mt-3">The Witcher 3: Wild Hunt Remastered</h4> 
+                        <p class="text-secondary">
+                            The Witcher 3: Wild Hunt Remastered brings graphical updates and system enhancements to the RPG. Here, players take on the role of Geralt of Rivia, a monster hunter for hire, exploring a open world dark fantasy in search of his adopted daughter, Ciri.
+                        </p>
+                        <span class="badge text-bg-warning">$40.99</span>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="modalTransport" aria-hidden="true" tabindex="-1" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Transport Fever 3</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="transportfever3.png" class="img-fluid text-center" alt="gambarbotol">
+                        <h4 class="fw-bold mt-3">Transport Fever 3</h4> 
+                        <p class="text-secondary">
+                            Transport Fever 3 is the latest sequel in the transport management simulation. The game focuses on building land, sea, and air transportation routes using a variety of vehicle options that have evolved over a century. Players are tasked with independently designing and building transportation networks.
+                        </p>
+                        <p class="text-secondary">
+                            The financial gains earned allow players to expand their network reach and construct various iconic landmarks. Conversely, if company performance declines, players must implement operational efficiencies and improvements to keep the business running.
+                        </p>
+                        <p class="text-secondary">
+                            As transportation networks expand, the needs of each city will become more complex. Planning effectiveness can change over time, requiring players to adapt and resolve emerging issues, while maintaining a balance between company growth targets and the needs of the city's population.
+                        </p>
+                        <span class="badge text-bg-warning">$40.99</span>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="modalGears" aria-hidden="true" tabindex="-1" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Gears of War: E-Day (RELEASED)</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="gears of war eday.png" class="img-fluid text-center" alt="gambarbotol">
+                        <h4 class="fw-bold mt-3">Gears of War: E-day</h4> 
+                        <p class="text-secondary">
+                           Gears of War: E-Day is set during the events of Emergence Day, exactly 14 years before the first Gears of War. The story focuses on Marcus Fenix ​​and Dominic Santiago as the Locust nation first emerges from the underground. Multiplayer features a revamped PvE mode called Horde Siege, as well as a Versus PvP mode. The game itself is powered by Unreal Engine 5.
+                        </p>
+                        <p class="text-secondary">
+                            In the co-op wave survival mode, players will survive in a city under attack. The map size is expanded to accommodate a larger player base and a larger battle scale. There are four classes available to play in squads of four: Assault, Marksman, Medic, or Breacher.
+                        </p>
+                        <p class="text-secondary">
+                            Additionally, players can join other squads to complete missions together and defeat world bosses. Each time you survive, you'll receive rewards that unlock customizations and expand your character's loadout.
+                        </p>
+                        <span class="badge text-bg-warning">$60.99</span>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button class="btn btn-success"><i class="bi bi-cart-plus-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </section>
+<section id="faq" class="py-5">
+                <div class="container">
+                <div class="text-center">
+                    <span class="badge text-bg-success">FAQ</span>
+                    <h2>Frequently Asked Question</h2>
+                    <p class="text-secondary">Maybe you are asking for these in this website.</p> 
+                </div>
+                <div class="accordion" id="accordionDgl">
+                    <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#firstFaq"> Is this not a piracy?  </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="firstFaq" data-bs-parent="#accordionDgl">
+                                <div class="accordion-body">
+                                No, it is not. All of the games here are purchased legally and sold legally. I have the rights to sell these games. 
+                                </div>
+                            </div>
+                        </div>
+                    <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#secondFaq"> When will you add more games? </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="secondFaq" data-bs-parent="#accordionDgl">
+                                <div class="accordion-body">
+                                    We will add more games every month, and we will add more games that are trending in the market. We will also add more games that are requested by our customers.
+                                </div>
+                            </div>
+                        </div>
+                    <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#thirdFaq"> Will you possibly make some games free? </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="thirdFaq" data-bs-parent="#accordionDgl">
+                                <div class="accordion-body">
+                                    Maybe? If the game that i purchase is cheap, I'll make it free here. </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+</section>
+        </main>
+    <div class="offcanvas offcanvas-start" id="canvasCart" tabindex="-1">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bold" id="offcanvasLabel">
+                Shopping Cart
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <!-- === Product 1 === -->
+        <div class="d-flex gap-1">
+<img src="deskrawl.png" alt="Cool Tumbler" class="object-fit-cover" width="222" height="100%">
+                <div class="flex-grow-0.5">
+                    <h6>Deskrawl: Idle ARPG</h6>
+                    <small class="text-secondary">$4.99</small> 
+                    <div class="d-flex gap-2">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                        <span>1</span>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button class="btn btn-danger" ><i class="bi bi-trash"></i></button>
+                </div> 
+            </div>
+            <hr>
+        <!-- === Product 2 === -->
+        <div class="d-flex gap-1">
+<img src="transportfever3.png" alt="Cool Tumbler" class="object-fit-cover" width="222" height="100%">
+                <div class="flex-grow-0.5">
+                    <h6>Transport Fever 3</h6>
+                    <small class="text-secondary">$40.99</small> 
+                    <div class="d-flex gap-2">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                        <span>1</span>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button class="btn btn-danger" ><i class="bi bi-trash"></i></button>
+                </div> 
+            </div>
+            <hr>
+        <!-- === Product 3 === -->
+        <div class="d-flex gap-1">
+<img src="mcd2.png" alt="Cool Tumbler" class="object-fit-cover" width="222" height="100%">
+                <div class="flex-grow-0.5">
+                    <h6>Minecraft Dungeons II</h6>
+                    <small class="text-secondary">$20.99</small> 
+                    <div class="d-flex gap-2">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                        <span>1</span>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button class="btn btn-danger" ><i class="bi bi-trash"></i></button>
+                </div> 
+            </div>
+            <hr>
+        <!-- === Product 4 === -->
+        <div class="d-flex gap-1">
+<img src="the witchers3.png" alt="Cool Tumbler" class="object-fit-cover" width="222" height="100%">
+                <div class="flex-grow-0.5">
+                    <h6>The Witcher 3: Wild Hunt Remastered</h6>
+                    <small class="text-secondary">$40.99</small> 
+                    <div class="d-flex gap-2">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                        <span>1</span>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button class="btn btn-danger" ><i class="bi bi-trash"></i></button>
+                </div> 
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                    <span>Subtotal (4)</span>
+                    <strong>$107.96</strong>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <span>Admin Fee</span>
+                    <strong>$2</strong>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <span>Total</span>
+                    <strong>$109.96</strong>
+                </div>
+                <button class="btn btn-success w-100 btn-lg">Checkout!</button>
+        </div>
+        
+        <footer>
+            <p class="text-secondary text-center" >&copy;2026 Dhema's Game Library. All rights reserved.</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="importmap">
+{
+  "imports": {
+    "@floating-ui/dom": "https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.7.6/dist/floating-ui.dom.esm.min.js",
+    "vanilla-calendar-pro": "https://cdn.jsdelivr.net/npm/vanilla-calendar-pro@3.4.0/index.mjs"
+  }
+}
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.min.js" integrity="sha384-BJf/nQgxZJU68GxBse97Vdlc8Rh+z9PzzXiS3/BjV+1nQPR7IKn+iJnD3DJvCMaU" crossorigin="anonymous"></script>
+        <script>
+                        window.onscroll = function() {
+  updateProgressBar();
+};
+
+function updateProgressBar() {
+  // Menghitung berapa piksel pengguna telah men-scroll ke bawah
+  const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  
+  // Menghitung total tinggi halaman yang bisa di-scroll
+  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  
+  // Mengubahnya menjadi persentase (0 - 100)
+  const scrolled = (winScroll / height) * 100;
+  
+  // Mengupdate lebar progress bar Bootstrap
+  document.getElementById("myProgressBar").style.width = scrolled + "%";
+}
+        </script>
+    </body>
+</html>
